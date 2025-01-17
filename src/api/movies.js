@@ -1,5 +1,5 @@
 const OMDB_API_KEY = "105edf88";
-const OMDB_API_URL = "http://www.omdbapi.com";
+const OMDB_API_URL = "https://www.omdbapi.com";
 
 async function fetchMovies(movieName) {
   const params = new URLSearchParams({
